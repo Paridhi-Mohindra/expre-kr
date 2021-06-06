@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "express-kr"
+  description: "expk"
+  annotations:
+    github.com/project-slug: Paridhi-Mohindra/expre-kr
+    backstage.io/techdocs-ref: url:https://github.com/Paridhi-Mohindra/expre-kr
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "Krishna"
